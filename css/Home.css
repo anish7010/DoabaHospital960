@@ -1,0 +1,84 @@
+#main {
+	background: black;
+	border: 1px solid white;
+}
+
+#title {
+	font-size: 55px;
+	color: white;
+	text-align: center;
+	font-family: 'Merriweather', serif;
+}
+
+#logo {
+	margin-left: 50px;
+}
+
+#navigation a {
+	color: white;
+	text-decoration: none;
+}
+
+#navigation a:hover{
+	text-decoration: underline;
+}
+
+#navigation a:active{
+	color:#dcdcdc;
+}
+
+#navigation li {
+	color : white;
+	display: inline;
+	padding-left: 5px;
+	padding-right:10px;
+	font-family: 'Roboto', sans-serif;
+	border-right:1px solid white;
+}
+
+#navigation {
+	font-family: 'Roboto', sans-serif;
+}
+
+#navigation span {
+	color : white;
+}
+
+li:nth-child(1) {
+  list-style: none;
+}
+
+#footer li {
+	font-family: "Open Sans", sans-serif;
+	color: white;
+	list-style: square;
+}
+
+#footer li:nth-child(1) {
+  list-style: none;
+}
+
+#last {
+	text-align: center;
+	color: white;
+	background: #2f4f4f;
+}
+
+#footer h1 {
+	font-family: "Open Sans", sans-serif;
+	font-size: 40px;
+	color: white;
+	text-align: center;
+}
+
+#footer p {
+	color: white;
+	font-family: "Open Sans", sans-serif;
+	text-align: center;
+}
+
+hr {
+	border: 1px solid white;
+	color: white;
+	margin-top: 20px;
+}
