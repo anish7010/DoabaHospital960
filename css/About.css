@@ -49,6 +49,19 @@
 	color : white;
 }
 
+#content h1 {
+	font-family: "Open Sans", sans-serif;
+	font-style: normal;
+	font-size: 40px;
+	color: black;
+	text-align: center;
+}
+
+#content p {
+	color: black;
+	font-family: "Open Sans", sans-serif;
+}
+
 li:nth-child(1) {
   list-style: none;
 }
@@ -63,11 +76,6 @@ li:nth-child(1) {
   list-style: none;
 }
 
-#last {
-	text-align: center;
-	color: white;
-	background: #2f4f4f;
-}
 
 #footer h1 {
 	font-family: "Open Sans", sans-serif;
@@ -82,8 +90,12 @@ li:nth-child(1) {
 	text-align: center;
 }
 
-hr {
+#second {
 	border: 1px solid white;
+}
+
+#last {
+	text-align: center;
 	color: white;
-	margin-top: 20px;
+	background: #2f4f4f;
 }
