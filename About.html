@@ -1,133 +1,141 @@
-<!DOCTYPE html>
+<!DOCTYPE html>																					<!--specifying that this is an html5 file -->
+
 <html>
 
 	<head>
 
-		<title>About Us</title>
+		<title>Doaba Home</title>
 
-		<meta charset="utf-8"/>
-		<link rel="stylesheet" href="css/960_12_col.css"/>
-		<link rel="stylesheet" href="css/reset.css"/>
-		<link rel="stylesheet" href="css/About.css"/>
+		<meta charset="utf-8"/>																		<!-- To include other languages and special characters like copyright -->
+		<link rel="stylesheet" type="text/css" href="css/ThirdParty/960_12_col.css"/>										<!-- Third Party css-->
+		<link rel="stylesheet" type="text/css" href="css/ThirdParty/reset.css"/>											<!--Third party css -->
+		
+		<link rel="stylesheet" type="text/css" href="css/About.css"/>														<!-- My own css sheet-->
 
-		<link rel="shortcut icon" href="images/title.ico" />
-		<link href="https://fonts.googleapis.com/css?family=Merriweather|Roboto|Open+Sans" rel="stylesheet">
-		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-
+		<link rel="shortcut icon" href="images/title.ico" />																		
+		
+		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Merriweather|Roboto|Open+Sans">					<!-- google fonts-->
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">		<!-- to include the telephone icon -->
 
 	</head>
 
 	<body>
 			
-			<div class = "container_12" style="background: black">
+		<div id = "header" class = "container_12">																			<!--12 column grid -->
 
-				<div id = "logo" class = "grid_2 prefix_1">														
-					<img src = "images/caduceus.jpg" alter = "Doctors' Logo" width = "150px" height=" 150px" />
-				</div>
+			<div id = "logo" class = "grid_2 prefix_2">														
+				<img src = "images/caduceus.jpg" alter = "Doctors' Logo" width = "150px" height=" 150px" />					
+			</div>
 
-				<div id = "title" class = "grid_4">										
-					<h1><a href = "Home.html">DOABA HOSPITAL</a></h1>
-				</div>
+			<div id = "title" class = "grid_4">										
+				<h1><a href = "index.html">DOABA HOSPITAL</a></h1>
+			</div>
 
-				<br>
+			<br>
 
-				<div id = "navigation" class = "grid_4">
-					
-					<ul>
-						<li style="padding-left: 40px"><a href = "About.html">About Us</a></li>
-						<li><a href = "#">Service</a></li>
-						<li><a href = "Email.html">Feedback</a></li>
-					</ul>
+			<div id = "navigation" class = "grid_4">
+				
+				<ul>
 
-					<br>
-					<br>
+					<li id = "RightHeader"><a href = "About.html">About Us</a></li>		 <!--just this one has an id because other elements will be with respect to it -->
+					<li><a href = "#">Service</a></li>
+					<li><a href = "Email.html">Feedback</a></li>
 
-					<ul>
-						<li>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i class="fa fa-phone" style="color: #7cfc00"></i><span>&nbsp;84377-93531</span></li>
-						<li><i class="fa fa-address-book" aria-hidden="true" style="color: red"></i><span>&nbsp;01823-222662</span></li>
-
-					</ul>
-
-					&nbsp;
-					&nbsp;
-
-				</div>
+				</ul>
 
 				<br>
+				<br>
+
+				<ul id = "ContactHeader">
+
+					<li><i class="fa fa-phone" style="color: #7cfc00"></i>&nbsp;84377-93531</li>							
+					<li><i class="fa fa-address-book" aria-hidden="true" style="color: red"></i>&nbsp;01823-222662</li>
+
+				</ul>
 
 			</div>
 
+			<br>
 
-			<div id = "super_content" class="container_12">
+		</div>
 
-				<div id = "content" class="grid_8 prefix_2">
-					
-					<br>
-					<br>
+		<div id = "super_content" class="container_12">
 
-					<h1>About Us</h1>
-					<br>
-					<p>
-					Doaba Hospital was founded in 2000 by <b>Dr. Bachittar Singh</b>(M.D. Orthology) & <b>Dr. Rita</b>(M.D. Radiology) in Shaheed Bhagat Singh Nagar with a vision of helping people. There was only one radiologist in town at that time. Growing at a really fast pace, we were able to get the latest technology required in medical sciences such as MRI, CT Scan etc. We believe that medicine should be available for everyone, hence medical fees is never an issue. 
-					</p>
-					
-					<p>
-					
-					<br>We understand responsibility better than privilege and practice accountability better than business. Hence, let us all make a wonderful world and give us the oppurtunity to serve you.
-					<br>
-					<br>
-					<br>
-					<br>
-					</p>
+		<div id = "content" class="grid_8 prefix_2">
+			
+			<br>
+			<br>
 
-				</div>
+			<h1>About Us</h1>
+			<br>
+			<p>
+			Doaba Hospital was founded in 2000 by <b>Dr. Bachittar Singh</b>(M.D. Orthology) & <b>Dr. Rita</b>(M.D. Radiology) in Shaheed Bhagat Singh Nagar with a vision of helping people. There was only one radiologist in town at that time. Growing at a really fast pace, we were able to get the latest technology required in medical sciences such as MRI, CT Scan etc. We believe that medicine should be available for everyone, hence medical fees is never an issue. 
+			</p>
+			
+			<p>
+			<br>We understand responsibility better than privilege and practice accountability better than business. Hence, let us all make a wonderful world and give us the oppurtunity to serve you.
+			<br><br><br><br>										<!--Content -->
+			</p>
 
+		</div>
+
+		</div>
+
+		<div id = "footer" class="container_12">
+				
+			<div class="grid_10 prefix_1">
+
+				<br>
+				<br>
+			
+			</div>
+
+			<div id="LeftFooter" class="grid_2 prefix_2">
+
+				<br> 
+				<footer>
+
+					<ul>
+
+						<li><b>EQUIPMENTS</b></li>
+						<li>MRI</li>
+						<li>CT Scan</li>
+						<li>Ultrasound</li>
+						<li>X-Ray</li>
+						<li>Color Doppler</li>
+
+					</ul>
 
 			</div>
 
-			<div class = "container_12" id = "footer">
+			<div id = "RightFooter" class = "grid_2 prefix_4">
 
-				<div id="LeftFooter" class="grid_2 prefix_2">
-						<br> <br> <br>
-						<footer>
-							<span>
-								<ul>
-									<li><b>EQUIPMENTS</b></li>
-									<li>MRI</li>
-									<li>CT Scan</li>
-									<li>Ultrasound</li>
-									<li>X-Ray</li>
-									<li>Color Doppler</li>
-								</ul>
-							</span>
+				<br>
+					<ul>
 
-							<br>
-							<br>
-							<br>
+					<li><b>SPECIALITIES</b></li>
+					<li>Radiology</li>
+					<li>Orthology</li>
 
-				</div>
+					</ul>
 
-				<div id = "RightFooter" class = "grid_2 prefix_4">
-					<br> <br>
-						<span>
-						<ul>
-						<li><b>SPECIALITIES</b></li>
-						<li>Radiology</li>
-						<li>Orthology</li>
-						</span>
-						</ul>
-				</div>		
+				</footer>
+
+			</div>
 
 			<br>
 			<br>
-			<br>
+
 		</div>
 
 		<div id = "last" class="container_12">
-			<pre>2018, Doaba Bone & Joint Hospital.</pre>
+			
+			<footer>
+				<pre>2018, Doaba Bone & Joint Hospital.</pre>
+			</footer>
 
 		</div>
 
-	</body>
+	</body> 
 
 </html>

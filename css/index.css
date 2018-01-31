@@ -1,3 +1,8 @@
+#header {
+	background: black;
+	border: 1px white solid;
+}
+
 #title {
 	font-size: 55px;
 	color: white;
@@ -11,7 +16,7 @@
 }
 
 #logo {
-	margin-left: 50px;
+	margin-left: 10px;
 }
 
 #navigation a {
@@ -30,8 +35,7 @@
 #navigation li {
 	color : white;
 	display: inline;
-	padding-left: 5px;
-	padding-right:10px;
+	padding-right:5px;
 	font-family: 'Roboto', sans-serif;
 	border-right:1px solid white;
 }
@@ -40,12 +44,12 @@
 	font-family: 'Roboto', sans-serif;
 }
 
-#navigation span {
-	color : white;
+#RightHeader {
+	margin-left: 87px;
 }
 
-li:nth-child(1) {
-  list-style: none;
+#ContactHeader {
+	margin-left: 50px;
 }
 
 #footer {
